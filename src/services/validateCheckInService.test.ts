@@ -1,8 +1,8 @@
 import { InMemoryCheckInsRepository } from '../repositories/in-memory/inMemoryCheckInsRepository'
-import { ResourceDoesNotExistsError } from '../../errors/ResourceDoesNotExistsError'
+import { ResourceDoesNotExistsError } from '../errors/ResourceDoesNotExistsError'
 import { expect, describe, it, beforeEach, afterEach, vi } from 'vitest'
 import { ValidateCheckInService } from './validateCheckInService'
-import { LateCheckInValidationError } from '../../errors/lateCheckInValidationError'
+import { LateCheckInValidationError } from '../errors/lateCheckInValidationError'
 
 let checkInsRepository: InMemoryCheckInsRepository
 let sut: ValidateCheckInService

@@ -1,5 +1,5 @@
 
-import { PrismaCheckInsRepository } from '@/http/repositories/prisma/prismaCheckInsRepository'
+import { PrismaCheckInsRepository } from '@/repositories/prisma/prismaCheckInsRepository'
 import { ValidateCheckInService } from '../validateCheckInService'
 
 

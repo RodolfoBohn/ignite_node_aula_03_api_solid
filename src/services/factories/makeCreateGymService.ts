@@ -1,5 +1,5 @@
 
-import { PrismaGymsRepository } from '@/http/repositories/prisma/prismaGymsRepository'
+import { PrismaGymsRepository } from '@/repositories/prisma/prismaGymsRepository'
 import { CreateGymService } from '../createGymService'
 
 

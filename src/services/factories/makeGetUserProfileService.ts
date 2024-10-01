@@ -1,5 +1,5 @@
 import { GetUserProfileService } from '../getUserProfile'
-import { PrismaUserRepository } from '@/http/repositories/prisma/prisma-users-repository'
+import { PrismaUserRepository } from '@/repositories/prisma/prisma-users-repository'
 
 
 export function makeGetUserProfileService() {

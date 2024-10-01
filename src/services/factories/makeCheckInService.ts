@@ -1,6 +1,6 @@
 
-import { PrismaCheckInsRepository } from '@/http/repositories/prisma/prismaCheckInsRepository'
-import { PrismaGymsRepository } from '@/http/repositories/prisma/prismaGymsRepository'
+import { PrismaCheckInsRepository } from '@/repositories/prisma/prismaCheckInsRepository'
+import { PrismaGymsRepository } from '@/repositories/prisma/prismaGymsRepository'
 import { CheckInService } from '../checkInService'
 
 

@@ -1,4 +1,4 @@
-import { prisma } from "../../../lib/prisma";
+import { prisma } from "../../lib/prisma";
 import { FindManyNearbyParams, GymsRepository } from "../gymsRepository";
 import { Gym, Prisma } from "@prisma/client";
 

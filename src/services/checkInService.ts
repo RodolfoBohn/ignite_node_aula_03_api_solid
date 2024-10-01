@@ -1,4 +1,4 @@
-import { CheckInsRepository } from '@/http/repositories/checkInsRepository'
+import { CheckInsRepository } from '@/repositories/checkInsRepository'
 import { CheckIn } from '@prisma/client'
 import { GymsRepository } from '../repositories/gymsRepository'
 import {ResourceDoesNotExistsError} from '@/errors/ResourceDoesNotExistsError'
